@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Projet Intégration Continue",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A2lam/CI-Api.git"
+  },
+  "author": "Allam - Anatole - Nils",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A2lam/CI-Api/issues"
+  },
+  "homepage": "https://github.com/A2lam/CI-Api#readme"
+}
