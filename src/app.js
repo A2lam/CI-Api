@@ -3,6 +3,8 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import http from 'http';
 
+import taskRouter from './task';
+
 // Creating a new Express application
 const app = express();
 
@@ -20,6 +22,9 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
+
+// Tasks
+app.use('/tasks', taskRouter);
 
 // app.listen(process.env.PORT);
 
