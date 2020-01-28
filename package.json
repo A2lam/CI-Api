@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/A2lam/CI-Api/issues"
   },
-  "homepage": "https://github.com/A2lam/CI-Api#readme"
+  "homepage": "https://github.com/A2lam/CI-Api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
