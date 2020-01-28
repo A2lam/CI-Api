@@ -10,9 +10,16 @@ services:
       MYSQL_USER: ci_project
       MYSQL_PASSWORD: ci_project_pass
     ports:
-    - 3306:3306
+      - 3306:3306
     expose:
-    - 3306
+      - 3306
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    depends_on:
+      - db
+    ports:
+      - 8081:80
 
   app:
     build:   .
